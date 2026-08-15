@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Our Products | Samarth Industries</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="wrap">Pune, Maharashtra, India <span>GST: YOUR-GST-NUMBER</span><span>📞 +91 8830507390,📞 +91 9604802520</span></div>
+    </div>
+    <header>
+        <div class="wrap header-main"><a class="logo" href="index.html"><b>SI</b><span>SAMARTH INDUSTRIES<small>DI PIPE MS
+                        COMPONENTS</small></span></a><button id="menuBtn">☰</button>
+            <nav id="nav"><a href="index.html">Home</a><a href="about.html">About Us</a><a class="active"
+                    href="products.html">Our Products</a><a href="contact.html">Contact Us</a></nav>
+            <div class="search"><input id="searchBox" placeholder="Search Products/Services"><button
+                    onclick="searchProducts()">Search</button></div>
+        </div>
+    </header>
+    <div class="crumb">
+        <div class="wrap">Home » Our Products</div>
+    </div>
+    <main>
+        <section class="intro wrap">
+            <p class="orange">OUR PRODUCTS</p>
+            <h1>DI Pipe MS Components</h1>
+            <p>Explore our range of industrial pipe components. Product specifications can be customized according
+                to project requirements.</p>
+        </section>
+        <section class="wrap layout">
+            <aside>
+                <h3>Product Categories</h3><a data-filter="all">All Products</a><a href="products.html">MS Flanges</a><a href="products.html">Mechanical collar joints(JIFFY,GP)</a><a
+                    href="products.html">Mechanical Adapter</a><a href="products.html">Mechanical Bends</a><a
+                    href="products.html">Mechanical Tee Joints</a><a href="products.html">Mechanical Reducer</a>
+                    <a href="products.html">Patch Clamp</a><a href="products.html">Header</a><a href="products.html">Custom fabricated</a>
+                    <a href="products.html">DI Pipe</a><a href="products.html">HDPE Pipe</a><a href="products.html">MDPE Pipe</a>
+                    <a href="products.html">DWC Pipe</a><a href="products.html">HDPE Special Material(EF.Coupler,EF.Bend,
+                        EF.Reducer,EF.Taping Tee, Compression fitting and HDPE Fabricated Material)</a><a
+                    class="quote" href="contact.html">Get Best Quote</a>
+            </aside>
+            <div>
+                <div class="filterbar"><input id="productSearch" placeholder="Search products..."
+                        oninput="filterProducts()"></div>
+                <div id="productGrid" class="products"></div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer"></footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
