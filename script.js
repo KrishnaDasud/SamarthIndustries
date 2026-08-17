@@ -6,7 +6,7 @@ const products = [
         label: "MS COMPONENT",
         desc: "MS flange components for pipeline connections and fabricated assemblies.",
         long: "MS rings can be manufactured according to required dimensions, thickness and project drawings.",
-        image: "./assets/images/mechadapter.png",
+        image: "./mechadapter.png",
         spec: {
             Material: "Mild Steel",
             Type: "Fabricated Ring",
