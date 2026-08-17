@@ -1,4 +1,4 @@
-# Samarth Industries Copy-Style Frontend
+# Samarth Industries
 
 A clean frontend inspired by the information architecture and product-detail/catalog pattern of the supplied reference page, rebuilt with original Samarth Industries branding/content.
 
